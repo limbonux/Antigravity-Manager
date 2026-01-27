@@ -28,6 +28,15 @@ function Layout() {
             <main className="flex-1 overflow-hidden flex flex-col relative">
                 <Outlet />
             </main>
+            <footer className="py-2 text-center text-gray-500 dark:text-gray-400 select-none bg-transparent pointer-events-none mb-1">
+                <div className="text-xs font-bold flex items-center justify-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
+                    <span>Suleiman Alhagami</span>
+                    <span className="text-[10px] opacity-30">|</span>
+                    <span>سليمان الهجامي</span>
+                    <span className="text-[10px] opacity-30">|</span>
+                    <span className="font-mono">772006329</span>
+                </div>
+            </footer>
         </div>
     );
 }
